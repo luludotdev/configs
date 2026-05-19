@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    // Type Checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "useUnknownInCatchVariables": true,
+    "noUncheckedIndexedAccess": true,
+    "isolatedDeclarations": true,
+    "skipLibCheck": true,
+
+    // Modules
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+
+    // Emit
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "newLine": "lf",
+    "forceConsistentCasingInFileNames": true,
+
+    // Language and Environment
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "lib": ["ES2022"],
+    "target": "ES2022",
+    "useDefineForClassFields": true
+  }
+}
