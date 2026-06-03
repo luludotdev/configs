@@ -23,9 +23,8 @@ jobs:
           cache: pnpm
           node-version: ${{ env.NODE_VERSION }}
           registry-url: "https://registry.npmjs.org"
+          package-manager-cache: false
       - name: Install packages
         run: pnpm ci
       - name: Publish to NPM
         run: pnpm publish --provenance --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
