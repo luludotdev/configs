@@ -1,1 +1,1 @@
-export { default } from "#/oxfmt.ts";
+export { default } from "./src/oxfmt.ts";
