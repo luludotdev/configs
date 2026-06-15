@@ -43,7 +43,7 @@
     "oxfmt": ">=0.53.0 <1",
     "oxlint": "^1.68.0"
   },
-  "packageManager": "pnpm@11.5.1",
+  "packageManager": "pnpm@11.7.0",
   "inlinedDependencies": {
     "lodash.merge": "4.6.2"
   }
