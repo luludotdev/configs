@@ -175,6 +175,8 @@ const config: OxlintConfig = {
     "unicorn/no-abusive-eslint-disable": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-accessor-recursion
     "unicorn/no-accessor-recursion": "warn",
+    // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-array-fill-with-reference-type
+    "unicorn/no-array-fill-with-reference-type": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-array-for-each
     "unicorn/no-array-for-each": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-array-method-this-argument
@@ -251,6 +253,8 @@ const config: OxlintConfig = {
     "unicorn/prefer-dom-node-remove": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-dom-node-text-content
     "unicorn/prefer-dom-node-text-content": "warn",
+    // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-export-from
+    "unicorn/prefer-export-from": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-global-this
     "unicorn/prefer-global-this": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-includes
@@ -283,6 +287,8 @@ const config: OxlintConfig = {
     "unicorn/prefer-regexp-test": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-response-static-json
     "unicorn/prefer-response-static-json": "warn",
+    // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-single-call
+    "unicorn/prefer-single-call": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-string-raw
     "unicorn/prefer-string-raw": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-string-replace-all
@@ -307,6 +313,8 @@ const config: OxlintConfig = {
     "unicorn/require-post-message-target-origin": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/text-encoding-identifier-case
     "unicorn/text-encoding-identifier-case": "warn",
+    // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/throw-new-error
+    "unicorn/throw-new-error": "warn",
     // #endregion
 
     // #region typescript
