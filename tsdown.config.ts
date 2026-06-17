@@ -5,7 +5,7 @@ const config: UserConfig = defineConfig({
   tsconfig: true,
   entry: ["./src/oxfmt.ts", "./src/oxlint/*.ts", "./src/utils.ts"],
   platform: "neutral",
-  deps: { onlyBundle: ["lodash.merge"] },
+  deps: { onlyBundle: ["es-toolkit"] },
   exports: true,
   dts: true,
   sourcemap: true,

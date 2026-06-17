@@ -1,1 +1,1 @@
-export { default as merge } from "lodash.merge";
+export { merge } from "es-toolkit/object";
