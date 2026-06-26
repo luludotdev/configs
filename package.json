@@ -18,6 +18,7 @@
   "exports": {
     "./oxfmt": "./dist/oxfmt.js",
     "./oxlint/common": "./dist/oxlint/common.js",
+    "./oxlint/node": "./dist/oxlint/node.js",
     "./oxlint/react": "./dist/oxlint/react.js",
     "./oxlint/react-compiler": "./dist/oxlint/react-compiler.js",
     "./oxlint/vitest": "./dist/oxlint/vitest.js",
