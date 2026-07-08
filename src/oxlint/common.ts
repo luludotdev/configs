@@ -169,6 +169,8 @@ const config: OxlintConfig = {
     "unicorn/error-message": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/explicit-length-check
     "unicorn/explicit-length-check": "warn",
+    // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/explicit-timer-delay
+    "unicorn/explicit-timer-delay": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/new-for-builtins
     "unicorn/new-for-builtins": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-abusive-eslint-disable
@@ -183,6 +185,8 @@ const config: OxlintConfig = {
     "unicorn/no-array-method-this-argument": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-await-expression-member
     "unicorn/no-await-expression-member": "error",
+    // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-confusing-array-with
+    "unicorn/no-confusing-array-with": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-console-spaces
     "unicorn/no-console-spaces": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/no-document-cookie
