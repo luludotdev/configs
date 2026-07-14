@@ -365,7 +365,7 @@ const config: OxlintConfig = {
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-invalid-void-type
     "typescript/no-invalid-void-type": ["error", { allowAsThisParameter: true }],
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-misused-promises
-    "typescript/no-misused-promises": "warn",
+    "typescript/no-misused-promises": ["warn", { checksVoidReturn: false }],
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-mixed-enums
     "typescript/no-mixed-enums": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-namespace
