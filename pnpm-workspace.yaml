@@ -1,0 +1,5 @@
+minimumReleaseAgeExclude:
+  - "@oxfmt/binding-*"
+  - "@oxlint/binding-*"
+  - oxfmt
+  - oxlint
