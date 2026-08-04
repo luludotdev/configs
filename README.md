@@ -6,11 +6,11 @@
 
 ```ts
 // oxlint.config.ts
-import { defineConfig } from "oxlint";
-
 import { default as common } from "@luludev/configs/oxlint/common";
+// import { default as node } from "@luludev/configs/oxlint/node";
 // import { default as react } from "@luludev/configs/oxlint/react";
 // import { default as vitest } from "@luludev/configs/oxlint/vitest";
+import { defineConfig } from "oxlint";
 
 export default defineConfig({
   extends: [common],
@@ -20,10 +20,12 @@ export default defineConfig({
 ## oxfmt
 
 ```ts
+// oxfmt.config.ts
+import { default as base } from "@luludev/configs/oxfmt";
+import { merge } from "@luludev/configs/utils";
 import { defineConfig } from "oxfmt";
-import { default as config } from "@luludev/configs/oxfmt";
 
-export default defineConfig({
-  ...config,
-});
+const config = defineConfig({});
+
+export default merge(base, config);
 ```
