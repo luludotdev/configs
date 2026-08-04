@@ -1,4 +1,5 @@
 minimumReleaseAgeExclude:
+  - "@rolldown/*"
   - "@oxfmt/binding-*"
   - "@oxlint/binding-*"
   - oxfmt
