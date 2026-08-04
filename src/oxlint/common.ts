@@ -410,8 +410,6 @@ const config: OxlintConfig = {
     "typescript/prefer-promise-reject-errors": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-readonly
     "typescript/prefer-readonly": "warn",
-    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-readonly-parameter-types
-    "typescript/prefer-readonly-parameter-types": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-reduce-type-parameter
     "typescript/prefer-reduce-type-parameter": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-return-this-type
