@@ -386,10 +386,22 @@ const config: OxlintConfig = {
     "typescript/no-unnecessary-type-conversion": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unnecessary-type-parameters
     "typescript/no-unnecessary-type-parameters": "warn",
+    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-argument
+    "typescript/no-unsafe-argument": "error",
+    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-assignment
+    "typescript/no-unsafe-assignment": "error",
+    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-call
+    "typescript/no-unsafe-call": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-enum-comparison
     "typescript/no-unsafe-enum-comparison": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-function-type
     "typescript/no-unsafe-function-type": "error",
+    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-member-access
+    "typescript/no-unsafe-member-access": "error",
+    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-return
+    "typescript/no-unsafe-return": "error",
+    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-type-assertion
+    "typescript/no-unsafe-type-assertion": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/non-nullable-type-assertion-style
     "typescript/non-nullable-type-assertion-style": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/only-throw-error
