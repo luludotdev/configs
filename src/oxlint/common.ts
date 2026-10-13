@@ -286,7 +286,7 @@ const config: OxlintConfig = {
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-optional-catch-binding
     "unicorn/prefer-optional-catch-binding": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-query-selector
-    "unicorn/prefer-query-selector": "warn",
+    "unicorn/prefer-query-selector": ["warn", { allowWithVariables: true }],
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-regexp-test
     "unicorn/prefer-regexp-test": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/unicorn/prefer-response-static-json
@@ -358,6 +358,8 @@ const config: OxlintConfig = {
     "typescript/no-explicit-any": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-extraneous-class
     "typescript/no-extraneous-class": "error",
+    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-generated-empty-object-type
+    "typescript/no-generated-empty-object-type": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-implied-eval
     "typescript/no-implied-eval": "warn",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-import-type-side-effects
