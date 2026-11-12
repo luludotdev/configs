@@ -4,3 +4,7 @@ minimumReleaseAgeExclude:
   - "@oxlint/binding-*"
   - oxfmt
   - oxlint
+
+permissions:
+  tsdown:
+    skills: false
