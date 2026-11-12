@@ -394,6 +394,8 @@ const config: OxlintConfig = {
     "typescript/no-unsafe-assignment": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-call
     "typescript/no-unsafe-call": "error",
+    // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-enum-assignment
+    "typescript/no-unsafe-enum-assignment": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-enum-comparison
     "typescript/no-unsafe-enum-comparison": "error",
     // https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unsafe-function-type
