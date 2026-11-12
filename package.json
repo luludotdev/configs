@@ -46,7 +46,7 @@
     "oxlint": "^1.88.0",
     "oxlint-tsgolint": "^7.0.2004"
   },
-  "packageManager": "pnpm@12.11.2",
+  "packageManager": "pnpm@12.21.0",
   "inlinedDependencies": {
     "es-toolkit": "1.52.0"
   }
